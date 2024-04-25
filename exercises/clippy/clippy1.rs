@@ -14,8 +14,9 @@
 use std::f32;
 
 fn main() {
-    let pi = std::f32::consts::PI;//3.14f32;
+    let pi = f32::consts::PI;
     let radius = 5.00f32;
+
     let area = pi * f32::powi(radius, 2);
 
     println!(
